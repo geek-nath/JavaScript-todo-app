@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('Assets/Images/Sprinkle.svg');
+    background-position: center;
+    background-size: cover;
+}
