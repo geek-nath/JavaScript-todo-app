@@ -38,5 +38,13 @@ body .form-control {
 }
 
 body .form-check-input {
-    background-color: #6C63FF !important;
+    background-color: #1C538E !important;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% !important;
+}
+
+body .todo_box .added_reminders {
+    background-color: #6C63FF;
+    border-radius: 10px;
 }
