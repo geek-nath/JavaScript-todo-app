@@ -8,8 +8,35 @@ body {
     font-family: 'Quicksand', sans-serif !important;
     display: flex;
     justify-content: center;
+    height: 100vh;
     align-items: center;
     background: url('Assets/Images/Sprinkle.svg');
     background-position: center;
     background-size: cover;
+}
+
+body .todo_box {
+    background-color: #1C538E;
+    /* max-width: 500px; */
+    width: 900px;
+    border-radius: 10px;
+}
+
+body .form-control {
+    background-color: transparent !important;
+    border-color: #6C63FF;
+    border-width: 2px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0%;
+    box-shadow: none !important;
+}
+
+::-webkit-input-placeholder {
+    color: white !important;
+}
+
+body .form-check-input {
+    background-color: #6C63FF !important;
 }

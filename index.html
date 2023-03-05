@@ -12,7 +12,43 @@
     </head>
 
     <body>
-        <div class="todo_box bg-white p-5"></div>
+        <div class="todo_box shadow p-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex h-100 justify-content-center align-items-center">
+                        <img src="Assets/Images/undraw_reminder_re_fe15.svg" width="90%" alt="svg illustration">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="main_content">
+                        <h1 class="fw-bold text-white">My Todo App.</h1>
+                        <small class="text-light">Please contents should not be more than 100 characters.</small>
+
+                        <div class="mt-5">
+                            <input type="text" class="form-control text-white text-center" placeholder="Set a reminder & press 'Enter'... ">
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="text-white fw-bold text-center">Added Reminders.</h5>
+                            <div class="added_reminders">
+                                <div class="individual_block d-flex p-3 gap-2">
+                                    <div class="checkbox_box d-flex justify-content-center align-items-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input shadow-none border-0" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        </div>
+                                    </div>
+
+                                    <div class="reminder_value text-white">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- scripts -->
         <script src="Assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
     </body>
