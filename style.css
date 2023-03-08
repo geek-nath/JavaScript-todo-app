@@ -18,13 +18,7 @@ body {
 .todo_box::-webkit-scrollbar {
     background-color: #1C538E !important;
     border-radius: 10px;
-    width: 14px;
-}
-
-.todo_box::-webkit-scrollbar-thumb {
-    background-color: #6C63FF;
-    border-radius: 10px;
-    width: 5px;
+    width: 0px;
 }
 
 body .todo_box {
