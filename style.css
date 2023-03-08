@@ -15,13 +15,26 @@ body {
     background-size: cover;
 }
 
+.todo_box::-webkit-scrollbar {
+    background-color: #1C538E !important;
+    border-radius: 10px;
+    width: 14px;
+}
+
+.todo_box::-webkit-scrollbar-thumb {
+    background-color: #6C63FF;
+    border-radius: 10px;
+    width: 5px;
+}
+
 body .todo_box {
     background-color: #1C538E;
     /* max-width: 500px; */
     width: 500px;
     border-radius: 10px;
+    max-height: 500px;
+    overflow-x: hidden;
 }
-
 body .form-control {
     background-color: transparent !important;
     border-color: #6C63FF !important;
