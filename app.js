@@ -18,6 +18,10 @@ taskField.addEventListener('keydown', (e)=> {
 function addTodoFunction() {
     // console.log(taskField.value);
 
+    if(taskField.value === '') {
+        alert('PLease fill in a task');
+    }
+
     addedReminder = document.createElement('div');
     addedReminder.className = 'added_reminders p-3 text-white position-relative';
 
@@ -43,5 +47,5 @@ function addTodoFunction() {
 
 function deleteTask() {
     let parentEl = this.parentElement;
-    parentEl.style.display = 'none';
+    parentEl.classList.add('d-none');
 }
